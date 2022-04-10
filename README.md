@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DEM (Discrete Element Modelling) in Taichi
 In this project, we have a built a basic DEM solver using Taichi HPC programming language. By letting Taichi do the heavy lifting in GPU processing at the backend and with Python has the front-end, it has enabled users to write high performance solvers in only hundreds of lines of Python code. 
 
@@ -22,7 +21,3 @@ python dem_gui_demo.py
 ```
 The example demo shows the collapse of a column of 72K particles. Although particle cohesion has not been added yet, but due to rolling friction, it eventually forms a pile.
 
-=======
-# taichi
-Taichi Language
->>>>>>> 4bcf1f4 (Update README.md)
