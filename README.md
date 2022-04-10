@@ -6,7 +6,7 @@ Taichi is platform agnostic and supports various backends, CPU, CUDA, Vulkan and
 ## DEM Implementation Summary
 In around 300 lines of Python code, it includes a simple hash grid, solver and rendering. 
 
-The contact model is the linear spring model. Rolling friction model is the linear viscous elastic model. Taichi has a built-in rendering engine. 
+The contact model is a linear spring model with linear viscous elastic rolling friction model. Particles are rendered using Taichi's built-in rendering engine. 
 
 ## Setup
 The main dependency is only the Taichi Python module. Note that Taichi only support Python 3.7 to 3.9. Taichi requirement is 0.9.0 and above.
